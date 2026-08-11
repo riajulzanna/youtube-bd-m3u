@@ -1,0 +1,49 @@
+name: Test PK3011 Method
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install yt-dlp and jq
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+          python -m pip install -U yt-dlp
+          yt-dlp --version
+
+      - name: Test Independent TV
+        run: |
+          URL="https://www.youtube.com/channel/UCATUkaOHwO9EP_W87zCiPbA"
+
+          echo "=========================================="
+          echo "TESTING PK3011-STYLE EXTRACTION"
+          echo "=========================================="
+
+          echo ""
+          echo "1. yt-dlp JSON:"
+          yt-dlp -J "$URL" > info.json
+
+          echo ""
+          echo "Live status:"
+          jq -r '.is_live // false' info.json
+
+          echo ""
+          echo "Title:"
+          jq -r '.title // "unknown"' info.json
+
+          echo ""
+          echo "2. Direct URL using -g -f best:"
+          yt-dlp -g -f "best" "$URL" || true
+
+          echo ""
+          echo "3. Checking whether extracted URL is HLS:"
+          yt-dlp -g -f "best" "$URL" 2>/dev/null | grep -o 'https[^ ]*\.m3u8[^ ]*' || echo "NO M3U8 FOUND"
+
+          echo ""
+          echo "=========================================="
+          echo "TEST COMPLETE"
+          echo "=========================================="
