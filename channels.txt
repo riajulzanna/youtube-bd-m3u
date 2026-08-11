@@ -1,0 +1,18 @@
+# name|youtube channel URL
+INDEPENDENT|https://youtube.com/channel/UCATUkaOHwO9EP_W87zCiPbA
+RTV|https://youtube.com/channel/UCR0hSGudjeZfnGL3uodU9Sw
+CHANNEL ONE|https://youtube.com/channel/UCrbWzP4kllmFMr_uWphAbXg
+NTV|https://youtube.com/channel/UC0V3IJCnr6ZNjB9t_GLhFFA
+JAMUNA TV|https://youtube.com/channel/UCN6sm8iHiPd0cnoUardDAnw
+SOMOY TV|https://youtube.com/channel/UCxHoBXkY88Tb8z1Ssj6CWsQ
+CHANNEL 24|https://youtube.com/channel/UCHLqIOMPk20w-6cFgkA90jw
+EKATTOR TV|https://youtube.com/channel/UCtqvtAVmad5zywaziN6CbfA
+DBC NEWS|https://youtube.com/channel/UCUvXoiDEKI8VZJrr58g4VAw
+EKHON TV|https://youtube.com/channel/UCWVqdPTigfQ-cSNwG7O9MeA
+STAR NEWS|https://youtube.com/channel/UC2HXZuHFLddZib4gDl1m6cA
+NEWS24|https://youtube.com/channel/UCHKvg7FqyEqmOkYx0y4KtlA
+BANGLA VISION|https://youtube.com/channel/UCAIEufoszs1J38-pKECORRg
+DESH TV|https://youtube.com/channel/UCqyt55f3byoK8rjgO0LBe4Q
+CHANNEL i|https://youtube.com/channel/UCA9CI-VL_LzlIROr2_n4iqA
+ATN NEWS|https://youtube.com/channel/UC9Rgo0CrNyd7OWliLekqqGA
+NEXUS TV|https://youtube.com/channel/UC200cnk8CCEkNAIubWtDsLw
