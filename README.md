@@ -7,6 +7,6 @@ Local:
 then run `run_test.bat`.
 
 The generator accepts only HLS/m3u8 URLs and skips offline/failed channels.
-## 📺 Screenshot
+<h2>📺 Screenshot</h2>
 
-![YouTube BD M3U Generator](screen.png)
+<img src="screen.png" alt="YouTube BD M3U Generator" width="700">
