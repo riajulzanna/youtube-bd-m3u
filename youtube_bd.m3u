@@ -1,4 +1,7 @@
 #EXTM3U
 #EXT-X-VERSION:3
-# Updated: 2026-11-20 00:49:22 UTC
-# Live channels: 0
+# Updated: 2026-11-20 08:01:37 UTC
+# Live channels: 1
+
+#EXTINF:-1 tvg-id="UCATUkaOHwO9EP_W87zCiPbA" tvg-name="INDEPENDENT" group-title="Bangladesh YouTube",INDEPENDENT [1080p]
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1795183204/ei/BP7_asnkH-7C0_wPxqqfgQ8/ip/40.124.217.224/id/iWq2kH0iq2Q.1/itag/270/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr3---sn-ojq4f5-51.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AZFAFb-GeXrGqPJRDXRRkbNWd4Xt1vCFjyR_9Yx9oXMS6KW8Szl5YAQhDMQCOtn8Lc3cxwdIowW-FjMe/spc/nfZ8Zv0eza0PAp1IZ-AujLk6Ul-f0wxO637jcgnCHPBK_gxPbQFkR0HirxPbd9Tgsg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1892375/met/1795161605,/mh/09/mm/44/mn/sn-ojq4f5-51/ms/lva/mv/m/mvi/3/pl/16/rms/lva,lva/dover/13/pacing/0/epbp/1/short_key/1/keepalive/yes/fexp/51565115/mt/1795161172/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhANJs7QwS9theIhiPn1J-UtXUQKI508qKU0NTSI_OXlEyAiBGZAGCE_YB-5Q_wEhhttSx9F6QKM9Wfv_6JgKvRR8JMQ%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgaZxTBMPo9yTkutwXsgigfPCtX6TD2plN-ChfWy0eCtECIBHpLkyBx4Et95t5cfd9xnMEXoprWvyl7uJoaj3R9aXU/playlist/index.m3u8
